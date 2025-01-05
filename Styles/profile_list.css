@@ -1,0 +1,143 @@
+﻿/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for all elements */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Search bar styling */
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-box {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* GridView table styling */
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+    background-color: #f1f1f1;
+}
+.grid-row {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    padding: 10px;
+    transition: all 0.3s ease; .
+rgin
+}
+
+}
+.g.g
+}.srow-alternate {
+    background-color: #eef7ff;
+    border: 1px solid #a6c8ff;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Inner spacing */
+}
+
+
+.sover, .grid-row-alternate:hover {
+    background-color: #d4edfa;
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
+
+.studentuden
+.student-table td img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* View Profile button styling */
+.view-profile-btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-profile-btn:hover {
+    background-color: #357ab7;
+}
+
+/* Pagination styling */
+.student-table .pager {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.student-table .pager a {
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.student-table .pager a:hover {
+    background-color: #357ab7;
+}

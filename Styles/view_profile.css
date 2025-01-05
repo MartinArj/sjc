@@ -1,0 +1,79 @@
+﻿/* General container styling */
+.container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Profile section styling */
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+/* Profile details styling */
+.profile-details {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.profile-details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #444;
+}
+.Edit-btn 
+{
+     border-radius: 10px;
+     background-color:azure;
+     box-shadow:inset;
+}
+
+.profile-details p strong {
+    color: #000;
+}
+
+/* Skills list styling */
+.skills-list {
+    list-style-type: disc;
+    margin: 8px 0 0 20px;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #555;
+}
+
+/* Additional styling for labels */
+asp\:Label {
+    display: inline-block;
+    margin-left: 5px;
+    color: #555;
+}
